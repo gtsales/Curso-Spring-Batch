@@ -15,7 +15,7 @@ import org.springframework.batch.item.function.FunctionItemProcessor;
 import org.springframework.batch.item.support.IteratorItemReader;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;import ch.qos.logback.core.net.SyslogOutputStream;
+import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @EnableBatchProcessing
